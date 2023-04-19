@@ -1,0 +1,125 @@
+.balloonContentHeader {
+
+    padding-top: 20px;
+}
+
+.title {
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+    color: #000000;
+
+}
+
+.description11 {
+    width: 200px;
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px 0px;
+    color: #A1A1A1;
+}
+
+.text {
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #A1A1A1;
+    margin-top: 10px;
+
+}
+
+.text span {
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.bodyImgs {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+.bodyImgs img {
+    width: 100px;
+    border-radius: 8px;
+    height: 100px;
+    cursor: pointer;
+}
+
+
+.footerText {
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    padding: 10px 0px;
+}
+
+.footerText span {
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #A1A1A1;
+    letter-spacing: 0.5px;
+}
+
+.BtnUzGroup {
+    padding: 15px 0;
+
+}
+
+.BtnUz {
+    width: 100px !important;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #0077B6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aeonik Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+
+
+.YandexListScroll::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+.YandexListScroll::-webkit-scrollbar-thumb {
+    background-color: #E8E8F0;
+    height: 50px;
+    border-radius: 8px
+}
+
+.placemarkCLuster {
+
+    background-color: red;
+    color: green;
+}
