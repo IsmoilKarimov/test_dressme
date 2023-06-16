@@ -488,13 +488,13 @@ const MediumHeader = () => {
                       placement="bottom"
                       content={contentWear}
                     >
-                      <div className="w-full h-full  sm:flex items-center  select-none cursor-pointer  ">
+                      <div className="w-full h-full  sm:flex items-center select-none cursor-pointer  ">
                         <img
                           src={data?.icons}
                           alt="weather"
                           className="mr-0 md:mr-[5px] "
                         />
-                        <div className="ss:hidden  font-AeonikProMedium mt-1 hidden md:block md:flex items-center text-[15px] ">
+                        <div className="ss:hidden  font-AeonikProMedium hidden md:flex items-center text-[15px] ">
                           {data?.type}
                         </div>
                       </div>
@@ -579,8 +579,7 @@ const MediumHeader = () => {
           </div>
           {/* Ending of Full Screen page sesction Map*/}
 
-          <div
-            className={`h-fit top-30  left-[16px] fixed  bg-white   shadow-lg duration-200 z-50 ${
+          <div className={`h-fit top-30  left-[16px] fixed  bg-white   shadow-lg duration-200 z-50 ${
               state?.clothesTypeMobile ? "w-[92%]" : "w-0"
             }  `}
           >
@@ -625,8 +624,7 @@ const MediumHeader = () => {
               </div>
             )}
           </div>
-          <div
-            className={`h-fit top-30  left-[16px] fixed  bg-white shadow-lg  duration-200 z-50 ${
+          <div className={`h-fit top-30  left-[16px] fixed  bg-white shadow-lg  duration-200 z-50 ${
               state?.priceToggleMobile ? "w-[92%]" : "w-0"
             }  `}
           >
@@ -671,8 +669,7 @@ const MediumHeader = () => {
               </div>
             )}
           </div>
-          <div
-            className={`h-fit top-30  left-[16px] fixed  bg-white shadow-lg  duration-200 z-50 ${
+          <div className={`h-fit top-30  left-[16px] fixed  bg-white shadow-lg  duration-200 z-50 ${
               state?.brandToggleMobile ? "w-[92%]" : "w-0"
             }  `}
           >
@@ -716,8 +713,7 @@ const MediumHeader = () => {
               </div>
             )}
           </div>
-          <div
-            className={`h-fit top-30  left-[16px] fixed  bg-white shadow-lg  duration-200 z-50 ${
+          <div className={`h-fit top-30  left-[16px] fixed  bg-white shadow-lg  duration-200 z-50 ${
               state?.selectColorToggleMobile ? "w-[92%]" : "w-0"
             }`}
           >

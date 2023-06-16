@@ -6,6 +6,7 @@ import { AreaChart, Area, XAxis, Tooltip, ResponsiveContainer } from "recharts";
 //  - eah 3 hrs for the next 24 hrs
 class GetGraph extends React.Component {
   render() {
+    console.log(this.props.forecast3hrs)
     return (
       <ResponsiveContainer width="100%" height={150}>
         <AreaChart

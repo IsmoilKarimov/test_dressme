@@ -43,11 +43,8 @@ module.exports = {
         Alyuminy: "#4D4D4D",
       },
       fontFamily: {
-        // Chrome for
-        // 400
-        AeonikProRegular: ["OTFAeonikProRegular", "sans-serif"],
-        // 500
-        AeonikProMedium: ["OTFAeonikProMedium", "sans-serif"],
+        AeonikProRegular: ["OTFAeonikProRegular", "sans-serif"],  // 400
+        AeonikProMedium: ["OTFAeonikProMedium", "sans-serif"],  // 500
       },
       boxShadow: {
         myShadow1: "1px -2px 0 0 rgb(17,24,39)",

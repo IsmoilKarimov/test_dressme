@@ -216,7 +216,7 @@ const BottomHeader = () => {
           <span>
             <img src={clothing} alt="clothing" className="" />{" "}
           </span>
-          <span className="not-italic font-AeonikProMedium text-center mt-1 text-sm leading-4 text-black">
+          <span className="not-italic font-AeonikProMedium text-center text-sm leading-4 text-black">
             {selectWear}
           </span>
           <span>
@@ -242,7 +242,7 @@ const BottomHeader = () => {
             <img src={dollarLogo} alt="dollar full" />{" "}
           </p>
           <p className=" w-[142px] h-full flex justify-between items-center px-3">
-            <span className="not-italic font-AeonikProMedium text-center text-sm mt-1 leading-4 text-black ">
+            <span className="not-italic font-AeonikProMedium text-center text-sm leading-4 text-black ">
               {selectPrice}
             </span>
             <span className="">
@@ -265,13 +265,10 @@ const BottomHeader = () => {
             className="w-[48px] cursor-pointer border-r border-searchBgColor h-full flex items-center justify-center"
           >
             <div className=" w-fit h-fit flex items-center justify-center relative  select-none ">
-              {/* <div className={`w-[8px] h-[20px] flex items-end justify-center  py-[2px] border border-black  rounded-[3px] z-[25] bg-white rounded-b-[5px]`}> */}
               <div className={style.mainOne}>
                 <img src={DotIcon} alt="DotIcon" />
               </div>
-              {/* <div className={`w-[8px] h-[20px] border left-[-3px] top-[2px] z-[24] bg-white relative border-black rounded-[3px] duration-200  rounded-b-[5px] ${!textToColor ? "rotate-[45deg] " : "left-[-8px] top-[0px] rotate-[0deg]"}`}> */}
               <div className={style.mainTwo}></div>
-              {/* <div className={`w-[8px] h-[20px] border relative left-[-10px] top-[6px] z-[23] bg-white border-black rounded-[3px] duration-200  rounded-b-[5px] ${!textToColor ? "rotate-[90deg]" : "left-[-16px] top-[0px] rotate-[0deg]"}`}> */}
               <div
                 className={
                   state?.textToColor ? style.MainHtree : style.mainThreerotate
@@ -342,13 +339,13 @@ const BottomHeader = () => {
                   className={`mr-1 ${genderStyle}  w-[136px] h-[44px] px-[16px] justify-between mr-2 flex items-center bg-btnBgColor border border-searchBgColor rounded-lg`}
                 >
                   <img className="mr-3" src={data?.woman} alt="female" />
-                  <span className="mt-1 font-AeonikProMedium">Женщинам</span>
+                  <span className=" font-AeonikProMedium">Женщинам</span>
                 </button>
                 <button
-                  className={`  ${genderStyle} w-[136px] h-[44px]  px-[16px] justify-between flex items-center bg-btnBgColor border border-searchBgColor mr-2 rounded-lg`}
+                  className={`${genderStyle} w-[136px] h-[44px]  px-[16px] justify-between flex items-center bg-btnBgColor border border-searchBgColor mr-2 rounded-lg`}
                 >
                   <img className="mr-3" src={data?.man} alt="male" />{" "}
-                  <span className="mt-1 font-AeonikProMedium">Мужчинам</span>
+                  <span className="font-AeonikProMedium">Мужчинам</span>
                 </button>
               </div>
             );
