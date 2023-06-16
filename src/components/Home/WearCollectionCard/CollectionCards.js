@@ -635,7 +635,7 @@ export default function CollectionCards() {
         </>
       ) : (
         <div className="mt-[50px]">
-          <SetClothesWear />
+          {/* <SetClothesWear /> */}
         </div>
       )}
     </div>
