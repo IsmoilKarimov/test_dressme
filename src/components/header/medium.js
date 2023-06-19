@@ -494,7 +494,7 @@ const MediumHeader = () => {
                           alt="weather"
                           className="mr-0 md:mr-[5px] "
                         />
-                        <div className="ss:hidden  font-AeonikProMedium hidden md:flex items-center text-[15px] ">
+                        <div className="ss:hidden font-NunitoMedium hidden md:flex items-center text-[15px] ">
                           {data?.type}
                         </div>
                       </div>
@@ -504,10 +504,10 @@ const MediumHeader = () => {
               </div>
 
               {/* Searching section */}
-              <div className="search flex items-center justify-center rounded-lg font-AeonikProMedium h-[44px] border border-red-600 md:border-transparent md:w-[622px] ml-2 ss:hidden md:flex">
+              <div className="search flex items-center justify-center rounded-lg font-Poppins font-medium h-[44px] border border-red-600 md:border-transparent md:w-[622px] ml-2 ss:hidden md:flex">
                 {/* Catalog section */}
                 <button
-                  className={`items-center ${dataStyle}  pl-5 pr-7 h-[44px] rounded-l-lg cursor-pointer hidden md:flex`}
+                  className={`items-center ${dataStyle} pl-5 pr-7 h-[44px] rounded-l-lg cursor-pointer hidden md:flex`}
                 >
                   {CategoryTypeArray.filter(
                     (data) => data.id === dressInfo?.type
@@ -522,7 +522,7 @@ const MediumHeader = () => {
                     );
                   })}
                   <span
-                    className={` px-[9.5px] not-italic font-AeonikProMedium text-sm leading-4 mt-1`}
+                    className={` px-[9.5px] not-italic font-poppins font-semibold text-sm leading-4`}
                   >
                     Каталог
                   </span>
@@ -547,7 +547,7 @@ const MediumHeader = () => {
                 className="items-center justify-center bg-btnBgColor rounded-lg md:h-[44px] text-sm md:w-[100px] md:mt-0 hidden md:flex"
               >
                 <img src={map} alt="map" className="pr-[6px]" />
-                <span className="font-AeonikProMedium text-sm  ">Карта</span>
+                <span className="font-NunitoMedium mt-1 text-sm">Карта</span>
               </NavLink>
 
               {/* Line border */}
@@ -570,7 +570,7 @@ const MediumHeader = () => {
               {/* Bucket section */}
               <button className=" bg-btnBgColor rounded-lg flex items-center justify-center w-11 h-11 relative md:flex ss:hidden">
                 <img src={bucket} alt="bucket" />
-                <span className="count bg-red-700 w-4 h-4 text-white text-[10px] rounded-lg flex items-center justify-center absolute top-0 right-0 font-AeonikProMedium">
+                <span className="count bg-red-700 w-4 h-4 text-white text-[10px] rounded-lg flex items-center justify-center absolute top-0 right-0 font-Poppins font-medium">
                   {" "}
                   4{" "}
                 </span>
@@ -794,13 +794,13 @@ const MediumHeader = () => {
                       className="w-full flex items-center justify-between "
                     >
                       <button
-                        className={` ${genderStyle} border rounded-lg bg-btnBgColor  border-searchBgColor font-AeonikProMedium w-[48%] h-[44px] px-4 flex items-center  focus:rounded-lg`}
+                        className={` ${genderStyle} border rounded-lg bg-btnBgColor  border-searchBgColor font-Poppins font-semibold w-[48%] h-[44px] px-4 flex items-center  focus:rounded-lg`}
                       >
                         <img src={data?.woman} alt="female" />
                         <span className="ml-3">Женщинам</span>
                       </button>
                       <button
-                        className={` font-AeonikProMedium ${genderStyle} border rounded-lg bg-btnBgColor  border-searchBgColor w-[48%] h-[44px] px-4 justify-center flex items-center  focus:rounded-lg`}
+                        className={` font-Poppins font-semibold ${genderStyle} border rounded-lg bg-btnBgColor  border-searchBgColor w-[48%] h-[44px] px-4 justify-center flex items-center  focus:rounded-lg`}
                       >
                         <img src={data?.man} alt="male" />
                         <span className="ml-3"> Мужчинам</span>

@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  mode: 'jit',
+  important: true,
+  // purge: ['./src/pages/**/*.{js,ts,jsx,tsx}'],
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -43,8 +46,15 @@ module.exports = {
         Alyuminy: "#4D4D4D",
       },
       fontFamily: {
-        AeonikProRegular: ["OTFAeonikProRegular", "sans-serif"],  // 400
-        AeonikProMedium: ["OTFAeonikProMedium", "sans-serif"],  // 500
+        NunitoRegular: ["Nunito-Regular", "sans-serif"],
+        NunitoMedium: ["Nunito-Medium", "sans-serif"],
+        NunitoSemibold: ["Nunito-Semibold", "sans-serif"],
+        NunitoBold: ["Nunito-Bold", "sans-serif"],
+
+
+        // AeonikProRegular: ["OTFAeonikProRegular", "sans-serif"],  // 400
+        // AeonikProMedium: ["OTFAeonikProMedium", "sans-serif"],  // 500
+
       },
       boxShadow: {
         myShadow1: "1px -2px 0 0 rgb(17,24,39)",
