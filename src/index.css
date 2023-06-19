@@ -1,30 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import '../src//fonts//font.css'; */
 
 
-
-@font-face {
-  font-family: "AeonikProMedium";
-  src: url("/src/fonts/AeonikPro-Medium.woff") format('woff');
+ @font-face {
+  font-family: "Nunito-Regular";
+  src: url("/src/fonts/Nunito-Regular.ttf") format('ttf');
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "AeonikProRegular";
-  src: url("/src/fonts/AeonikPro-Regular.woff") format('woff');
+  font-family: "Nunito-Medium";
+  src: url("/src/fonts/Nunito-Medium.ttf") format('woff');
+  font-weight: 500;
 }
 
-/* otf */
-
-@font-face {
-  font-family: "OTFAeonikProMedium";
-  src:  url("/src/fonts/AeonikPro-Medium.otf") format('truetype');
+ @font-face {
+  font-family: "Nunito-SemiBold";
+  src:  url("/src/fonts/Nunito-SemiBold.ttf") format('ttf');
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: "OTFAeonikProRegular";
-  src:  url("/src/fonts/AeonikPro-Regular.otf") format('truetype');
+  font-family: "Nunito-Bold";
+  src:  url("/src/fonts/Nunito-Bold.ttf") format('ttf');
+  font-weight: 700;
 }
 
 

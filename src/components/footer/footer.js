@@ -308,7 +308,7 @@ const Footer = () => {
                                 <Link to='/' className="md:mb-[14px]">
                                     <img src={blackBrand} alt="logo" className="ss:w-[85%] ll:w-[90%] sm:w-full" />
                                 </Link>
-                                <div className="text-textColor mb-[18px] text-sm hidden md:flex">Торговая площадка одежды</div>
+                                <div className="text-textColor font-OpenSans font-medium mb-[18px] text-sm hidden md:flex">Торговая площадка одежды</div>
                             </div>
 
                             {/* Address */}
@@ -318,7 +318,7 @@ const Footer = () => {
                                     <div className="border border-searchBgColor flex items-center justify-center rounded-lg mr-3 w-24 h-12 ss:bg-white md:bg-transparent">
                                         <img src={location} alt="location" />
                                     </div>
-                                    <div className="font-AeonikProRegular text-sm underline underline-offset-4">Мирзо-Улугбекский район, проспект Амира Темура, 60 - Ташкент, 100017</div>
+                                    <div className="font-Poppins font-normal text-sm underline underline-offset-4">Мирзо-Улугбекский район, проспект Амира Темура, 60 - Ташкент, 100017</div>
                                 </div>
                             </div>
 
